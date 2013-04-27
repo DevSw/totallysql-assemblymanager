@@ -1,0 +1,1196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ImportAssembly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ImportAssembly.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SSMS_Folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SSMS Folder.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errSelectedFileNotAValidAssembly" xml:space="preserve">
+    <value>The file "%FILE%" is not a valid .NET assembly. If you wish to add it as an associated file you must add it directly to an existing assembly.</value>
+  </data>
+  <data name="dateFormat" xml:space="preserve">
+    <value>yyyy-MMM-dd HH:mm:ss</value>
+  </data>
+  <data name="sqlGetSchemas" xml:space="preserve">
+    <value>select * from [%DATABASE%].sys.schemas</value>
+  </data>
+  <data name="Trustworthy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Trustworthy Database.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mbxFunctionWithSameNameAlreadyExistsPrompt" xml:space="preserve">
+    <value>An object with the name [%FUNCTION%] already exists in database [%DATABASE%], so this will not be added.</value>
+  </data>
+  <data name="Database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Database.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SSMS_UDT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SSMS UDT.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlDropAggregate" xml:space="preserve">
+    <value>/****** Object:  UserDefinedAggregate %FUNCTION%    Script Date: %DATE% ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'%FUNCTION%') AND type = N'AF')
+DROP AGGREGATE %FUNCTION%</value>
+  </data>
+  <data name="sqlSetServer" xml:space="preserve">
+    <value>&gt;&gt;&gt;&gt;&gt;&gt; SET SERVER AS [%SERVER%] &lt;&lt;&lt;&lt;&lt;&lt;</value>
+  </data>
+  <data name="Statistics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Statistics.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mbxNoRollbackWithScriptExecution" xml:space="preserve">
+    <value>Warning: if you execute from a script there is no automatic roll-back available. Are you sure you wish to proceed?</value>
+  </data>
+  <data name="SSMS_External_Assembly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SSMS External Assembly.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlDropProcedure" xml:space="preserve">
+    <value>/****** Object:  StoredProcedure %FUNCTION%    Script Date: %DATE% ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'%FUNCTION%') AND type in (N'P', N'PC'))
+DROP PROCEDURE %FUNCTION%</value>
+  </data>
+  <data name="actnAddFile" xml:space="preserve">
+    <value>Add associated file %NEWVALUE% to assembly [%ASSEMBLY%] in database [%DATABASE%] on server [%SERVER%].</value>
+  </data>
+  <data name="sqlDropFile" xml:space="preserve">
+    <value>alter assembly [%ASSEMBLY%] drop file '%FILE%'</value>
+  </data>
+  <data name="Select" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Select.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlGetAssemblyBytes" xml:space="preserve">
+    <value>select content from [%DATABASE%].sys.assembly_files where assembly_id = %ASSEMBLY_ID% and name = '%ASSEMBLY%'</value>
+  </data>
+  <data name="mbxLoadActionsOverOthersPrompt" xml:space="preserve">
+    <value>Do you wish to remove the open pending actions first?</value>
+  </data>
+  <data name="Disconnect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Disconnect.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlCreateTrigger" xml:space="preserve">
+    <value>/****** Object:  Trigger %FUNCTION%    Script Date: %DATE% ******/
+CREATE TRIGGER %FUNCTION% ON %TARGET%  %EVENT% AS 
+EXTERNAL NAME [%ASSEMBLY%].[%CLASS%].[%FUNCTIONENTRYPOINT%]</value>
+  </data>
+  <data name="ddlDropEvents2005" xml:space="preserve">
+    <value>APPLICATION_ROLE
+ASSEMBLY
+CERTIFICATE
+CONTRACT
+EVENT_NOTIFICATION
+FUNCTION
+INDEX
+MESSAGE_TYPE
+PARTITION_FUNCTION
+PARTITION_SCHEME
+PROCEDURE
+QUEUE
+REMOTE_SERVICE_BINDING
+ROLE
+ROUTE
+SCHEMA
+SERVICE
+STATISTICS
+SYNONYM
+TABLE
+TRIGGER
+TYPE
+USER
+VIEW
+XML_SCHEMA_COLLECTION</value>
+  </data>
+  <data name="actnChangeDatabaseDefaultSchema" xml:space="preserve">
+    <value>Change default schema for database [%DATABASE%] from [%OLDVALUE%] to [%NEWVALUE%]  on server [%SERVER%].</value>
+  </data>
+  <data name="ExecuteToHere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ExecuteToHere.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CutHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CutHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlDropFunction" xml:space="preserve">
+    <value>/****** Object:  UserDefinedFunction %FUNCTION%    Script Date: %DATE% ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'%FUNCTION%') AND type in (N'FN', N'IF', N'TF', N'FS', N'FT'))
+DROP FUNCTION %FUNCTION%</value>
+  </data>
+  <data name="SSMS_Unsafe_Assembly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SSMS Unsafe Assembly.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlSetVSTriggerFlag" xml:space="preserve">
+    <value>EXEC sys.sp_addextendedproperty @name=N'AutoDeployed', @value=N'yes' , @level0type=N'TRIGGER',@level0name=N'%TRIGGER%'</value>
+  </data>
+  <data name="Add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Add.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlCreateAggregate" xml:space="preserve">
+    <value>/****** Object:  UserDefinedAggregate %FUNCTION%    Script Date: %DATE% ******/
+CREATE AGGREGATE %FUNCTION%(%PARMLIST%)
+RETURNS %RETURNTYPE%
+EXTERNAL NAME [%ASSEMBLY%].[%CLASS%]
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'AutoDeployed', @value=N'yes' , @level0type=N'SCHEMA',@level0name=N'%SCHEMA%', @level1type=N'AGGREGATE',@level1name=N'%RAWFUNCTION%'</value>
+  </data>
+  <data name="sqlCreateAssembly" xml:space="preserve">
+    <value>/****** Object:  SqlAssembly [%ASSEMBLY%]    Script Date: %DATE% ******/
+CREATE ASSEMBLY [%ASSEMBLY%]
+FROM %ASSEMBLYBYTES%
+WITH PERMISSION_SET = %PERMISSIONSET%
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'AutoDeployed', @value=N'yes' , @level0type=N'ASSEMBLY',@level0name=N'%ASSEMBLY%'</value>
+  </data>
+  <data name="sqlSetClrEnabled" xml:space="preserve">
+    <value>sp_configure 'clr_enabled', %NEWVALUE%;
+Reconfigure</value>
+  </data>
+  <data name="actnDropFunction" xml:space="preserve">
+    <value>Drop %TYPE% %FUNCTION% (defined in assembly [%ASSEMBLY%]) from database [%DATABASE%] on server [%SERVER%].</value>
+  </data>
+  <data name="arrow_55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\arrow_55.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditServer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\EditServer.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExternalAssembly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ExternalAssembly.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Execute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Execute.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actnDropAllAssemblies" xml:space="preserve">
+    <value>Drop all assemblies and their dependent objects from database [%DATABASE%] on server [%SERVER%].</value>
+  </data>
+  <data name="mbxAssociatedFileAlreadyExists" xml:space="preserve">
+    <value>The associated file "%FILE%" already exists for assembly "%ASSEMBLY%".</value>
+  </data>
+  <data name="ddlCreateEvents2005" xml:space="preserve">
+    <value>APPLICATION_ROLE
+ASSEMBLY
+CERTIFICATE
+CONTRACT
+EVENT_NOTIFICATION
+FUNCTION
+INDEX
+MESSAGE_TYPE
+PARTITION_FUNCTION
+PARTITION_SCHEME
+PROCEDURE
+QUEUE
+REMOTE_SERVICE_BINDING
+ROLE
+ROUTE
+SCHEMA
+SERVICE
+STATISTICS
+SYNONYM
+TABLE
+TRIGGER
+TYPE
+USER
+VIEW
+XML_INDEX
+XML_SCHEMA_COLLECTION</value>
+  </data>
+  <data name="CloneTrigger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CloneTrigger.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlGetTriggers" xml:space="preserve">
+    <value>select t.name, t.type, isnull(s.name, '') as target_schema, isnull(o.name, t.parent_class_desc) as target_object, te.type_desc, t.is_instead_of_trigger, t.is_disabled, t.object_id, isnull(o.type, '') as target_type
+from [%DATABASE%].sys.triggers t
+	inner join [%DATABASE%].sys.trigger_events te on t.object_id = te.object_id
+	left join [%DATABASE%].sys.objects o on t.parent_id = o.object_id
+	left join [%DATABASE%].sys.schemas s on s.schema_id = o.schema_id
+order by t.name</value>
+  </data>
+  <data name="sqlDropTrigger" xml:space="preserve">
+    <value>/****** Object:  Trigger %FUNCTION%    Script Date: %DATE% ******/
+IF  EXISTS (SELECT * FROM sys.triggers WHERE object_id = OBJECT_ID(N'%FUNCTION%'))
+DROP TRIGGER %FUNCTION%</value>
+  </data>
+  <data name="RefreshAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RefreshAll.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlSetTrustworthy" xml:space="preserve">
+    <value>ALTER DATABASE [%DATABASE%] SET TRUSTWORTHY %NEWVALUE%;</value>
+  </data>
+  <data name="mbxMoveAllObjectsToNewSchemaPrompt" xml:space="preserve">
+    <value>Move all child objects in schema [%OLDVALUE%] to schema [%NEWVALUE%]?</value>
+  </data>
+  <data name="SSMS_Stored_Proc__external_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SSMS Stored Proc (external).bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Checked_box" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Checked box.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SSMS_Schema" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SSMS Schema.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DropAndCreate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DropAndCreate.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ScriptToClipboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ScriptToClipboard.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlGetDatabases" xml:space="preserve">
+    <value>select name, is_trustworthy_on from sys.databases</value>
+  </data>
+  <data name="errCantHideDatabaseWithPendingActions" xml:space="preserve">
+    <value>There are pending actions associated with this database: you cannot hide a database which has actions pending. You should cancel or execute the pending actions first.</value>
+  </data>
+  <data name="CopyHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CopyHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actnDropAssemblyObjects" xml:space="preserve">
+    <value>Drop all objects defined in assembly [%ASSEMBLY%] from database [%DATABASE%] on server [%SERVER%].</value>
+  </data>
+  <data name="sqlSwapAssembly" xml:space="preserve">
+    <value>/****** Object:  SqlAssembly [%ASSEMBLY%]    Script Date: %DATE% ******/
+ALTER ASSEMBLY [%ASSEMBLY%]
+FROM %ASSEMBLYBYTES%</value>
+  </data>
+  <data name="mbxMoveAllObjectsToNewSchemaTitle" xml:space="preserve">
+    <value>Change default schema</value>
+  </data>
+  <data name="mbxExecuteAllActionsPrompt" xml:space="preserve">
+    <value>Press OK to go ahead and commit all pending actions on the server(s).</value>
+  </data>
+  <data name="ScriptAsRollback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ScriptAsRollback.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actnSwapAssembly" xml:space="preserve">
+    <value>Replace version [%OLDVALUE%] of assembly [%ASSEMBLY%] with version [%NEWVALUE%] in database [%DATABASE%] on server [%SERVER%].</value>
+  </data>
+  <data name="sqlDropAssembly" xml:space="preserve">
+    <value>/****** Object:  SqlAssembly [%ASSEMBLY%]    Script Date: %DATE% ******/
+IF  EXISTS (SELECT * FROM sys.assemblies asms WHERE asms.name = N'%ASSEMBLY%')
+DROP ASSEMBLY [%ASSEMBLY%]</value>
+  </data>
+  <data name="sqlGetParameters" xml:space="preserve">
+    <value>select o.object_id, o.name, p.parameter_id, case when p.is_output = 1 then '(output)' else p.name end as parameter, t.name as type, p.has_default_value, p.default_value, p.max_length
+from [%DATABASE%].sys.parameters p 
+	inner join [%DATABASE%].sys.types t on p.user_type_id = t.user_type_id
+	inner join [%DATABASE%].sys.objects o on o.object_id = p.object_id</value>
+  </data>
+  <data name="ScriptToSSMS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ScriptToSSMS.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlDropDatabaseTrigger" xml:space="preserve">
+    <value>IF  EXISTS (SELECT * FROM sys.triggers WHERE parent_class_desc = 'DATABASE' AND name = N'%RAWFUNCTION%') DROP TRIGGER %FUNCTION% ON DATABASE</value>
+  </data>
+  <data name="RoleMember" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RoleMember.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Schema" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Schema.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mbxCancelAllActionsPrompt" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="RollbackDownToHere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RollbackDownToHere.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mbxIdenticalAssemblyAlreadyInstalledPrompt" xml:space="preserve">
+    <value>Assembly %ASSEMBLY%, version %VERSION% in database %DATABASE% is already installed or marked for installation.</value>
+  </data>
+  <data name="sqlGetAssembliesAndFunctions" xml:space="preserve">
+    <value>select	a.name as assembly_name, 
+		a.permission_set, 
+		o.object_id, 
+		o.name as function_name, 
+		o.[type], 
+		s.name as [schema], 
+		a.clr_name, 
+		a.create_date, 
+		a.modify_date, 
+		a.is_visible, 
+		a.assembly_id, 
+		am.assembly_class, 
+		am.assembly_method 
+from [%DATABASE%].sys.assemblies a 
+	left join [%DATABASE%].sys.assembly_modules am on a.assembly_id = am.assembly_id
+	left join [%DATABASE%].sys.all_objects o on o.object_id = am.object_id
+	left join [%DATABASE%].sys.schemas s on o.schema_id = s.schema_id
+--where a.is_user_defined = 1 
+where a.name &lt;&gt; 'Microsoft.SqlServer.Types'
+
+union 
+
+select	a.name as assembly_name, 
+		a.permission_set, 0 as object_id, 
+		at.name as function_name, 
+		'UDT' as [type], 
+		s.name as [schema], 
+		a.clr_name, 
+		a.create_date, 
+		a.modify_date, 
+		a.is_visible, 
+		a.assembly_id, 
+		at.assembly_class, 
+		null
+from [%DATABASE%].sys.assemblies a
+	inner join [%DATABASE%].sys.assembly_types at on a.assembly_id = at.assembly_id 
+	inner join [%DATABASE%].sys.schemas s on at.schema_id = s.schema_id 
+where at.is_user_defined = 1 
+
+union
+
+select	a.name,
+		a.permission_set,
+		t.object_id,
+		t.name, 
+		t.type, 
+		isnull(s.name, '') as target_schema, 
+		a.clr_name,
+		a.create_date,
+		a.modify_date,
+		a.is_visible,
+		am.assembly_id,
+		am.assembly_class,
+		am.assembly_method
+from [%DATABASE%].sys.triggers t
+	inner join [%DATABASE%].sys.assembly_modules am on t.object_id = am.object_id
+	inner join [%DATABASE%].sys.assemblies a on a.assembly_id = am.assembly_id
+	inner join [%DATABASE%].sys.trigger_events te on t.object_id = te.object_id
+	left join [%DATABASE%].sys.objects o on t.parent_id = o.object_id
+	left join [%DATABASE%].sys.schemas s on s.schema_id = o.schema_id
+
+order by a.name, [type], [function_name]</value>
+  </data>
+  <data name="DropFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DropFile.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlGetClrEnabled" xml:space="preserve">
+    <value>select value_in_use from sys.configurations where name = 'clr enabled'</value>
+  </data>
+  <data name="mnuScriptAs" xml:space="preserve">
+    <value>Script %TYPE% As</value>
+  </data>
+  <data name="ViewAs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ViewAs.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Delete.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actnDropAssembly" xml:space="preserve">
+    <value>Drop assembly [%ASSEMBLY%] from database [%DATABASE%] on server [%SERVER%].</value>
+  </data>
+  <data name="errNoServerToExecuteAgainst" xml:space="preserve">
+    <value>There is currently no open connection to server %SERVER% - please connect to %SERVER% first.</value>
+  </data>
+  <data name="InstallAllChildren" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\InstallAllChildren.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlGetLightweightPooling" xml:space="preserve">
+    <value>select value_in_use from sys.configurations where name = 'lightweight pooling'</value>
+  </data>
+  <data name="mbxDragFunctionIntoExistingAssemblyWherePendingRemovePrompt" xml:space="preserve">
+    <value>Function %FUNCTION% is already installed but currently marked for removal in database [%DATABASE%]. Do you wish to cancel the action to remove it?</value>
+  </data>
+  <data name="SafeAssembly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SafeAssembly.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mbxServerAlreadyConnected" xml:space="preserve">
+    <value>You already have an open connection to server %SERVER%: you can only have one connection per server at any one time.</value>
+  </data>
+  <data name="mbxFunctionNotInNewAssemblyVersionTitle" xml:space="preserve">
+    <value>Replace assembly: object not defined</value>
+  </data>
+  <data name="SSMS_Database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SSMS Database.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlGetReferences" xml:space="preserve">
+    <value>select * from [%DATABASE%].sys.assembly_references</value>
+  </data>
+  <data name="ddlAlterEvents2008" xml:space="preserve">
+    <value>APPLICATION_ROLE
+ASSEMBLY
+ASYMMETRIC_KEY
+AUTHORIZATION_DATABASE
+CERTIFICATE
+EXTENDED_PROPERTY
+FULLTEXT_CATALOG
+FULLTEXT_INDEX
+FUNCTION
+INDEX
+MASTER_KEY
+MESSAGE_TYPE
+PARTITION_FUNCTION
+PARTITION_SCHEME
+PLAN_GUIDE
+PROCEDURE
+QUEUE
+REMOTE_SERVICE_BINDING
+ROLE
+ROUTE
+SCHEMA
+SERVICE
+SYMMETRIC_KEY
+TABLE
+TRIGGER
+USER
+VIEW
+XML_SCHEMA_COLLECTION</value>
+  </data>
+  <data name="sqlChangePermissionSet" xml:space="preserve">
+    <value>ALTER ASSEMBLY [%ASSEMBLY%]
+WITH PERMISSION_SET = %PERMISSIONSET%</value>
+  </data>
+  <data name="Save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Save.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actnRenameFunction" xml:space="preserve">
+    <value>Change SQL name of %TYPE% %FUNCTION% from [%OLDVALUE%] to [%NEWVALUE%]  in database [%DATABASE%] on server [%SERVER%].</value>
+  </data>
+  <data name="errReferencedAssemblyMustBeLoadedFirst" xml:space="preserve">
+    <value>Assembly %ASSEMBLY1% references an assembly named %ASSEMBLY2%, which must be added first. </value>
+  </data>
+  <data name="Search_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Search button.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ddlCreateEvents2008" xml:space="preserve">
+    <value>APPLICATION_ROLE
+ASSEMBLY
+ASYMMETRIC_KEY
+CERTIFICATE
+CONTRACT
+DEFAULT
+EVENT_NOTIFICATION
+EXTENDED_PROPERTY
+FULLTEXT_CATALOG
+FULLTEXT_INDEX
+FUNCTION
+INDEX
+MASTER_KEY
+MESSAGE_TYPE
+PARTITION_FUNCTION
+PARTITION_SCHEME
+PLAN_GUIDE
+PROCEDURE
+QUEUE
+REMOTE_SERVICE_BINDING
+ROLE
+ROUTE
+RULE
+SCHEMA
+SERVICE
+SPATIAL_INDEX
+STATISTICS
+SYMMETRIC_KEY
+SYNONYM
+TABLE
+TRIGGER
+TYPE
+USER
+VIEW
+XML_INDEX
+XML_SCHEMA_COLLECTION</value>
+  </data>
+  <data name="mbxDragFunctionIntoExistingAssemblyTitle" xml:space="preserve">
+    <value>Add function</value>
+  </data>
+  <data name="sqlGetDBPermissions" xml:space="preserve">
+    <value>select * FROM [%DATABASE%].sys.fn_my_permissions(null, 'DATABASE') where permission_name in 
+('CREATE ASSEMBLY', 'CREATE TYPE', 'CREATE AGGREGATE', 'CREATE FUNCTION', 'CREATE PROCEDURE', 'CREATE RULE', 'CREATE DATABASE DDL EVENT NOTIFICATION', 'ALTER ANY ASSEMBLY', 'ALTER ANY DATABASE DDL TRIGGER');</value>
+  </data>
+  <data name="errNameAlreadyExistsAfterLabelEdit" xml:space="preserve">
+    <value>There is already an object called [%NEWVALUE%] in database [%DATABASE%] on [%SERVER%].</value>
+  </data>
+  <data name="HideDatabase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HideDatabase.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Drop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Drop.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="View" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\View.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlGetServerPermissions" xml:space="preserve">
+    <value>select * from fn_my_permissions(null, null) where permission_name in ('EXTERNAL ACCESS ASSEMBLY', 'UNSAFE ASSEMBLY', 'ALTER SETTINGS', 'ALTER ANY DATABASE');</value>
+  </data>
+  <data name="Two_scripts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Two scripts.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlGetColumns" xml:space="preserve">
+    <value>select table_catalog, table_schema, table_name, column_name, ordinal_position, data_type, character_maximum_length from [%DATABASE%].INFORMATION_SCHEMA.ROUTINE_COLUMNS order by  table_catalog, table_schema, table_name, ordinal_position</value>
+  </data>
+  <data name="DropAssembly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DropAssembly.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mbxReloadLibraryPrompt" xml:space="preserve">
+    <value>The library at [%FILE%] is already open. Do you wish to reload it from the saved copy (changes will be lost) ?</value>
+  </data>
+  <data name="Merge_Library" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Merge Library.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlAlterFunction" xml:space="preserve">
+    <value>/****** Object:  UserDefinedFunction %FUNCTION%    Script Date: %DATE% ******/
+ALTER FUNCTION %FUNCTION%(%PARMLIST%)
+RETURNS %RETURNTYPE% WITH EXECUTE AS CALLER
+AS 
+EXTERNAL NAME [%ASSEMBLY%].[%CLASS%].[%FUNCTIONENTRYPOINT%]</value>
+  </data>
+  <data name="actnChangeTrustworthySetting" xml:space="preserve">
+    <value>Set TRUSTWORTHY=%NEWVALUE% for database [%DATABASE%] on server [%SERVER%].</value>
+  </data>
+  <data name="Save_All" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Save All.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yellow_Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Yellow Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actnChangeFunctionSchema" xml:space="preserve">
+    <value>Change schema for %TYPE% %FUNCTION% from [%OLDVALUE%] to [%NEWVALUE%]  in database [%DATABASE%] on server [%SERVER%].</value>
+  </data>
+  <data name="Rollback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Rollback.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actnAddFunction" xml:space="preserve">
+    <value>Create %TYPE% %FUNCTION% (defined in assembly [%ASSEMBLY%]) in database [%DATABASE%] on server [%SERVER%].</value>
+  </data>
+  <data name="File" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\File.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mbxMergeLibraryNonIdenticalAssemblyExistsPrompt" xml:space="preserve">
+    <value>The imported library [%LIBRARY%] contains [%COMPARE%] version of existing assembly [%ASSEMBLY%]. Do you want to replace the current version with it?</value>
+  </data>
+  <data name="ddlDropEvents2008" xml:space="preserve">
+    <value>APPLICATION_ROLE
+ASSEMBLY
+ASYMMETRIC_KEY
+CERTIFICATE
+CONTRACT
+DEFAULT
+EVENT_NOTIFICATION
+EXTENDED_PROPERTY
+FULLTEXT_CATALOG
+FULLTEXT_INDEX
+FUNCTION
+INDEX
+MASTER_KEY
+MESSAGE_TYPE
+PARTITION_FUNCTION
+PARTITION_SCHEME
+PLAN_GUIDE
+PROCEDURE
+QUEUE
+REMOTE_SERVICE_BINDING
+ROLE
+ROLE_MEMBER
+ROUTE
+RULE
+SCHEMA
+SERVICE
+STATISTICS
+SYMMETRIC_KEY
+SYNONYM
+TABLE
+TRIGGER
+TYPE
+USER
+VIEW
+XML_SCHEMA_COLLECTION</value>
+  </data>
+  <data name="DropChildObjects" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DropChildObjects.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rule" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\rule.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actnChangeTriggerTarget" xml:space="preserve">
+    <value>Change the target object for trigger %FUNCTION% to %NEWVALUE% in database %DATABASE%</value>
+  </data>
+  <data name="Refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Refresh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errNameAlreadyExistsInLibraryAfterLabelEdit" xml:space="preserve">
+    <value>There is already an object called [%NEWVALUE%] in assembly [%ASSEMBLY%].</value>
+  </data>
+  <data name="SSMS_Table_valued_function" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SSMS Table-valued function.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HideDatabase1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HideDatabase.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Database_Trigger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Database Trigger.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SQL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SQL.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlSetVSAssemblyFlag" xml:space="preserve">
+    <value>EXEC sys.sp_addextendedproperty @name=N'AutoDeployed', @value=N'yes' , @level0type=N'ASSEMBLY',@level0name=N'%ASSEMBLY%'</value>
+  </data>
+  <data name="PasteHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PasteHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SSMS_Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SSMS Table.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarningServer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarningServer.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mbxDragFunctionIntoExistingNonIdenticalAssemblyPrompt" xml:space="preserve">
+    <value>You have selected only one item (%FUNCTION%) from the new version of assembly [%ASSEMBLY%], but there are %OLDVALUE% other installed items in the current version. Do you wish to install matching items from the new version ?</value>
+  </data>
+  <data name="sqlAddFile" xml:space="preserve">
+    <value>ALTER ASSEMBLY [%ASSEMBLY%] ADD FILE FROM %ASSEMBLYBYTES% AS '%FILE%'</value>
+  </data>
+  <data name="ScriptToDisk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ScriptToDisk.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Properties" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Properties.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DoubleDrop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DoubleDrop.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SSMS_Function" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SSMS Function.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlCreateProcedure" xml:space="preserve">
+    <value>/****** Object:  StoredProcedure %FUNCTION%    Script Date: %DATE% ******/
+CREATE PROCEDURE %FUNCTION% %PARMLIST%
+WITH EXECUTE AS CALLER
+AS
+EXTERNAL NAME [%ASSEMBLY%].[%CLASS%].[%FUNCTIONENTRYPOINT%]
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'AutoDeployed', @value=N'yes' , @level0type=N'SCHEMA',@level0name=N'%SCHEMA%', @level1type=N'PROCEDURE',@level1name=N'%RAWFUNCTION%'</value>
+  </data>
+  <data name="sqlSetLightweightPooling" xml:space="preserve">
+    <value>sp_configure 'lightweight_pooling', %NEWVALUE%;
+Reconfigure</value>
+  </data>
+  <data name="errReferencedAssemblyNotFoundInDatabase" xml:space="preserve">
+    <value>Assembly %ASSEMBLY1% cannot be downloaded because it references assembly %ASSEMBLY2%, which cannot be found. Please ensure that %ASSEMBLY2% is available on this machine or add it to the database.</value>
+  </data>
+  <data name="mbxFunctionNotInNewAssemblyVersionPrompt" xml:space="preserve">
+    <value>Warning: [%TYPE%] [%FUNCTION%]  is not defined in version [%NEWVALUE%] of assembly [%ASSEMBLY%] - it will be dropped.</value>
+  </data>
+  <data name="ClrDisabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ClrDisabled.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actnChangeCLREnabledSetting" xml:space="preserve">
+    <value>Set 'clr enabled' = %NEWVALUE% on server [%SERVER%].</value>
+  </data>
+  <data name="Alter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Alter.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actnChangeTriggerEvents" xml:space="preserve">
+    <value>Change the events list for trigger %FUNCTION% on %TARGET% in database %DATABASE% to "%NEWVALUE%"</value>
+  </data>
+  <data name="Parameters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Parameters.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlGetAssociatedFiles" xml:space="preserve">
+    <value>select * 
+from [%DATABASE%].sys.assembly_files
+where file_id &gt; 1</value>
+  </data>
+  <data name="actnAddAssemblyObjects" xml:space="preserve">
+    <value>Create all objects defined in assembly [%ASSEMBLY%] in database [%DATABASE%] on server [%SERVER%].</value>
+  </data>
+  <data name="script" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\script.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClrEnabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ClrEnabled.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DoubleExecute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DoubleExecute.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red_Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Red Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mbxDisconnectAllWithPendingActions" xml:space="preserve">
+    <value>Warning: all unsaved pending actions will be lost - do you wish to continue?</value>
+  </data>
+  <data name="mbxWarningCLRDisabledPrompt" xml:space="preserve">
+    <value>Warning: CLR is not enabled on this server - you can install CLR assemblies and functions but they will not run until CLR is enabled.</value>
+  </data>
+  <data name="mbxFunctionDiffersInNewAssemblyVersionTitle" xml:space="preserve">
+    <value>Replace assembly: object signature is different</value>
+  </data>
+  <data name="Search_button1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Search button.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlGetVersion" xml:space="preserve">
+    <value>SELECT  SERVERPROPERTY('productversion')</value>
+  </data>
+  <data name="actnAddAssembly" xml:space="preserve">
+    <value>Install assembly [%ASSEMBLY%] into database [%DATABASE%] on server [%SERVER%].</value>
+  </data>
+  <data name="sqlCreateFunction" xml:space="preserve">
+    <value>/****** Object:  UserDefinedFunction %FUNCTION%    Script Date: %DATE% ******/
+CREATE FUNCTION %FUNCTION%(%PARMLIST%)
+RETURNS %RETURNTYPE% WITH EXECUTE AS CALLER
+AS 
+EXTERNAL NAME [%ASSEMBLY%].[%CLASS%].[%FUNCTIONENTRYPOINT%]
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'AutoDeployed', @value=N'yes' , @level0type=N'SCHEMA',@level0name=N'%SCHEMA%', @level1type=N'FUNCTION',@level1name=N'%RAWFUNCTION%'</value>
+  </data>
+  <data name="Insert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Insert.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Process" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Process.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ViewAsExecute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ViewAsExecute.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UndoDropAssemby" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UndoDropAssemby.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mbxNonIdenticalAssemblyAlreadyInstalledPrompt" xml:space="preserve">
+    <value>Replace assembly %ASSEMBLY%, version %OLDVERSION%, created %OLDDATE% with assembly %ASSEMBLY%, version %NEWVERSION%, created %NEWDATE% in database %DATABASE% ?</value>
+  </data>
+  <data name="Clipboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Clipboard.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ddlAlterEvents2005" xml:space="preserve">
+    <value>APPLICATION_ROLE
+ASSEMBLY
+AUTHORIZATION_DATABASE
+CERTIFICATE
+FUNCTION
+INDEX
+MESSAGE_TYPE
+PARTITION_FUNCTION
+PARTITION_SCHEME
+PROCEDURE
+QUEUE
+REMOTE_SERVICE_BINDING
+ROLE
+ROUTE
+SCHEMA
+SERVICE
+TABLE
+TRIGGER
+USER
+VIEW
+XML_SCHEMA_COLLECTION</value>
+  </data>
+  <data name="mbxRemoveDependentAssemblyPrompt" xml:space="preserve">
+    <value>Assembly %ASSEMBLY1%  is referenced by %ASSEMBLY2% which must therefore also be removed - do you wish to remove %ASSEMBLY2% ?</value>
+  </data>
+  <data name="Open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Open.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Export.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Create" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Create.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unchecked_box" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\unchecked box.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mbxCancelSvrActionsPrompt" xml:space="preserve">
+    <value>There are actions pending against this server which will be cancelled if it is disconnected. Are you sure you wish to proceed?</value>
+  </data>
+  <data name="mbxWarningTrustworthyOffPrompt" xml:space="preserve">
+    <value>Warning: database [%DATABASE%] has the Trustworthy option turned OFF - you can only install an EXTERNAL_ACCESS or UNRESTRICTED assembly if trustworthy is set to ON or the assembly is signed with a certificate or asymmetric key with a corresponding login with EXTERNAL ACCESS ASSEMBLY permission.</value>
+  </data>
+  <data name="errSelectAssemblyBeforeAddingFile" xml:space="preserve">
+    <value>You need to select an assembly before you can add other files to it.</value>
+  </data>
+  <data name="sqlAlterProcedure" xml:space="preserve">
+    <value>/****** Object:  StoredProcedure %FUNCTION%    Script Date: %DATE% ******/
+ALTER PROCEDURE %FUNCTION%
+	%PARMLIST%
+WITH EXECUTE AS CALLER
+AS
+EXTERNAL NAME [%ASSEMBLY%].[%CLASS%].[%FUNCTIONENTRYPOINT%]</value>
+  </data>
+  <data name="Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Table.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlUseDatabase" xml:space="preserve">
+    <value>USE [%DATABASE%]</value>
+  </data>
+  <data name="sqlGetEdition" xml:space="preserve">
+    <value>SELECT SERVERPROPERTY ('edition')</value>
+  </data>
+  <data name="mbxIdenticalAssemblyAlreadyInstalledTitle" xml:space="preserve">
+    <value>Identical assembly already in place.</value>
+  </data>
+  <data name="sqlGetIsSysAdmin" xml:space="preserve">
+    <value>select IS_SRVROLEMEMBER('sysadmin');</value>
+  </data>
+  <data name="RollbackToHere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RollbackToHere.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="New_Library" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\New Library.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SSMS_Server" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SSMS Server.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mbxFunctionWithSameNameAlreadyExistsTitle" xml:space="preserve">
+    <value>Object with same name already exists</value>
+  </data>
+  <data name="UndoSwapAssembly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UndoSwapAssembly.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DisconnectAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DisconnectAll.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImportFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ImportFile.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actnChangeParameterDefault" xml:space="preserve">
+    <value>Set default value for parameter [%PARAMETER%] to [%NEWVALUE%] for %FUNCTION%  in database [%DATABASE%] on server [%SERVER%].</value>
+    <comment>Oldvalue used for parameter name</comment>
+  </data>
+  <data name="sqlAlterTrigger" xml:space="preserve">
+    <value>/****** Object:  Trigger %FUNCTION%    Script Date: %DATE% ******/
+ALTER TRIGGER %FUNCTION% ON %TARGET% %EVENT% AS 
+EXTERNAL NAME [%ASSEMBLY%].[%CLASS%].[%FUNCTIONENTRYPOINT%]</value>
+  </data>
+  <data name="mbxSaveLibraryChangesPrompt" xml:space="preserve">
+    <value>Save changes before closing?</value>
+  </data>
+  <data name="Stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Stop.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StopHighlighted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\StopHighlighted.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errSqlVersionNotSupported" xml:space="preserve">
+    <value>Common Language Runtime (CLR) functionality was introduced in SQL Server 2005 - earlier versions of SQL Server do not support it. The server you have selected is running %VERSION%. </value>
+  </data>
+  <data name="mbxReferencedAssemblyMustBeRecovered" xml:space="preserve">
+    <value>Assembly %ASSEMBLY1% references dropped assembly %ASSEMBLY2%, so this will be recovered as well.</value>
+  </data>
+  <data name="Untrustworthy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Trustworthy.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mbxFunctionDiffersInNewAssemblyVersionPrompt" xml:space="preserve">
+    <value>Warning: [%TYPE%] [%FUNCTION%]  has a different signature in version [%NEWVALUE%] of assembly [%ASSEMBLY%] from that in version [%OLDVALUE%]. It will be dropped and re-created using the new definition.</value>
+  </data>
+  <data name="connect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\connect.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actnDropFile" xml:space="preserve">
+    <value>Drop associated file %OLDVALUE% from assembly [%ASSEMBLY%] in database [%DATABASE%] on server [%SERVER%].</value>
+  </data>
+  <data name="sqlExecuteProcedure" xml:space="preserve">
+    <value>EXECUTE [%DATABASE%].%FUNCTION%   %PARMLIST%</value>
+  </data>
+  <data name="mbxReferenceAssemblyCannotBeRecovered" xml:space="preserve">
+    <value>Assembly %ASSEMBLY1% references assembly %ASSEMBLY2% which cannot be located - please restore a copy of that assembly to the database first.</value>
+  </data>
+  <data name="RollbackAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RollbackAll.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlSelectFunction" xml:space="preserve">
+    <value>SELECT [%DATABASE%].%FUNCTION% (%PARMLIST%)</value>
+  </data>
+  <data name="mbxNonIdenticalAssemblyAlreadyInstalledTitle" xml:space="preserve">
+    <value>Replace existing installed assembly?</value>
+  </data>
+  <data name="sqlDropType" xml:space="preserve">
+    <value>/****** Object:  UserDefinedType %FUNCTION%    Script Date: %DATE% ******/
+IF  EXISTS (SELECT * FROM sys.assembly_types at INNER JOIN sys.schemas ss on at.schema_id = ss.schema_id WHERE at.name = N'%RAWFUNCTION%' AND ss.name=N'%SCHEMA%')
+DROP TYPE %FUNCTION%</value>
+  </data>
+  <data name="errNothingToDoOnSql" xml:space="preserve">
+    <value>This action is internal to the CLR Assembly Manager tool and does not require anything to happen on the SQL server.</value>
+  </data>
+  <data name="errEmptyStringNotAValidName" xml:space="preserve">
+    <value>Identifiers must contain at least one character.</value>
+  </data>
+  <data name="sqlSetServerWarning" xml:space="preserve">
+    <value>
+-- !!! WARNING: There are multiple servers targeted by the commands in this script - take care not to execute
+-- !!! commands against the wrong server. Please check below for other instances of this message. 
+-- !!! The target server for the following commands down to the next warning should be: %SERVER%
+
+</value>
+  </data>
+  <data name="actnChangePermissionSet" xml:space="preserve">
+    <value>Change permission set for [%ASSEMBLY%] from [%OLDVALUE%] to [%NEWVALUE%]  in database [%DATABASE%] on server [%SERVER%].</value>
+  </data>
+  <data name="mbxLoadReferencedAssembly" xml:space="preserve">
+    <value>Assembly %ASSEMBLY1% references assembly %ASSEMBLY2% so this will be added as well.</value>
+  </data>
+  <data name="SafeAssembly2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SafeAssembly2.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errSchemaNotFoundAfterLabelEdit" xml:space="preserve">
+    <value>The schema [%NEWVALUE%] does not exist in database [%DATABASE%] on [%SERVER%].</value>
+  </data>
+  <data name="sqlSetServerReminder" xml:space="preserve">
+    <value>
+-- !!! WARNING: To avoid accidental execution against the wrong server please ensure 
+-- !!! that the correct server is associated with this query window before execution. 
+-- !!! The target server for the following commands should be: %SERVER%
+
+</value>
+  </data>
+  <data name="Undo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Undo.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errSchemaCannotBeSetForTriggers" xml:space="preserve">
+    <value>You cannot directly specify a new schema for a trigger function: the schema follows from the target object (database, table or view).</value>
+  </data>
+  <data name="UnsafeAssembly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UnsafeAssembly.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlSetVSFunctionFlag" xml:space="preserve">
+    <value>EXEC sys.sp_addextendedproperty @name=N'AutoDeployed', @value=N'yes' , @level0type=N'SCHEMA',@level0name=N'%SCHEMA%', @level1type=N'%TYPE%',@level1name=N'%FUNCTION%'</value>
+  </data>
+  <data name="ScriptAsExecute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ScriptAsExecute.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Edit.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sqlGetTablesAndViews" xml:space="preserve">
+    <value>select t.name, s.name as [schema], [type] 
+from [%DATABASE%].sys.tables t inner join [%DATABASE%].sys.schemas s on t.schema_id = s.schema_id
+union
+select v.name, s.name as [schema], [type] 
+from [%DATABASE%].sys.views v inner join [%DATABASE%].sys.schemas s on v.schema_id = s.schema_id
+order by [type], [schema], name</value>
+  </data>
+  <data name="mbxReferencedAssemblyIsDifferentVersionInDB" xml:space="preserve">
+    <value>Assembly %ASSEMBLY1% references a different version (%VERSION1%) of assembly %ASSEMBLY2% from the one installed in database [%DATABASE%] (version %VERSION2%). Do you wish to replace the installed version with %VERSION1% ?</value>
+  </data>
+  <data name="sqlCreateDatabaseTrigger" xml:space="preserve">
+    <value>/****** Object:  Trigger %FUNCTION%    Script Date: %DATE% ******/
+CREATE TRIGGER %FUNCTION% ON %TARGET%  %EVENT% AS 
+EXTERNAL NAME [%ASSEMBLY%].[%CLASS%].[%FUNCTIONENTRYPOINT%]
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'AutoDeployed', @value=N'yes', @level0type=N'TRIGGER', @level0name=N'%RAWFUNCTION%'</value>
+  </data>
+  <data name="mbxDragFunctionIntoExistingAssemblyWhereAlreadyInstalledPrompt" xml:space="preserve">
+    <value>Assembly [%ASSEMBLY%] and %TYPE% %FUNCTION% are already installed or marked for installation in database [%DATABASE%].</value>
+  </data>
+  <data name="sqlCreateType" xml:space="preserve">
+    <value>/****** Object:  UserDefinedType %FUNCTION%    Script Date: %DATE% ******/
+CREATE TYPE %FUNCTION%
+EXTERNAL NAME [%ASSEMBLY%].[%CLASS%]
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'AutoDeployed', @value=N'yes' , @level0type=N'SCHEMA',@level0name=N'%SCHEMA%', @level1type=N'TYPE',@level1name=N'%RAWFUNCTION%'</value>
+  </data>
+  <data name="sqlGetProductLevel" xml:space="preserve">
+    <value>SELECT SERVERPROPERTY ('productlevel')</value>
+  </data>
+  <data name="mbxParameterDefaultValueDoesntParsePrompt" xml:space="preserve">
+    <value>The value you supplied (%VALUE%) is not recognised as a valid %TYPE% (n.b. avoid putting 'single quotes' in string values).</value>
+  </data>
+  <data name="ViewAsRollback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ViewAsRollback.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trigger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Trigger.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Assembly Manager Blue 400 x 300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Assembly Manager Blue 400 x 300.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DropKey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DropKey.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Key" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Key.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actnAddKeyAndLogin" xml:space="preserve">
+    <value>Add asymmetric key [%KEY%] and associated login [%LOGIN%] for assemblies with public key token %THUMBPRINT% to server [%SERVER%].</value>
+  </data>
+  <data name="actnAddPermission" xml:space="preserve">
+    <value>Add permission %PERMISSION% ASSEMBLY to login [%LOGIN%] associated with assemblies with public key token %THUMBPRINT% on server [%SERVER%].</value>
+  </data>
+  <data name="actnDropKeyAndLogin" xml:space="preserve">
+    <value>Remove asymmetric key [%KEY%] and associated login [%LOGIN%] for assemblies with public key token %THUMBPRINT% from server [%SERVER%].</value>
+  </data>
+  <data name="actnDropPermission" xml:space="preserve">
+    <value>Revoke permission %PERMISSION% ASSEMBLY from login [%LOGIN%] associated with assemblies with public key token %THUMBPRINT% on server [%SERVER%].</value>
+  </data>
+  <data name="mbxDropKeyAndLogin" xml:space="preserve">
+    <value>Warning: If you drop the asymmetric key and associated login for assemblies with public key token %THUMBPRINT% from server [%SERVER%] the following assemblies will be unable to run:
+</value>
+  </data>
+  <data name="mbxNeedToAddLogin" xml:space="preserve">
+    <value>To set the permission set for strong-named assembly [%ASSEMBLY%] to %PERMISSION% you must EITHER add an asymmetric key and associated login id OR set the TRUSTWORTHY flag for database [%DATABASE%] to ON. 
+
+Do you want to want to add an asmmetric key and associated login id (recommended) ?</value>
+  </data>
+  <data name="mbxNeedToAddPermission" xml:space="preserve">
+    <value>To set the permission set for strong-named assembly [%ASSEMBLY%] to %PERMISSION% you must EITHER add the %PERMISSION% ASSEMBLY permission to the associated login id OR set the TRUSTWORTHY flag for database [%DATABASE%] to ON. 
+
+Do you want to want to add the %PERMISSION% ASSEMBLY permission to the associated login id (recommended) ?</value>
+  </data>
+  <data name="mbxNeedToSetTrustworthy" xml:space="preserve">
+    <value>To set the permission set for unsigned assembly [%ASSEMBLY%] to %PERMISSION% the TRUSTWORTHY flag for database [%DATABASE%] must be set to ON. 
+
+Click OK to add that as an action.</value>
+  </data>
+  <data name="mbxThenNeedToSetTrustworthy" xml:space="preserve">
+    <value>Do you want to set the TRUSTWORTHY flag for database [%DATABASE%] to ON ?</value>
+  </data>
+  <data name="sqlAddKeyAndLogin" xml:space="preserve">
+    <value>DECLARE @SID varbinary(100)
+IF NOT EXISTS (SELECT * FROM sys.asymmetric_keys WHERE thumbprint = %THUMBPRINT%)
+BEGIN
+	CREATE ASSEMBLY [%ASSEMBLY%]
+	FROM %ASSEMBLYBYTES%
+	WITH PERMISSION_SET = SAFE
+	CREATE ASYMMETRIC KEY [%KEY%] FROM ASSEMBLY [%ASSEMBLY%]
+	DROP ASSEMBLY [%ASSEMBLY%]
+END
+SET @SID = (SELECT sid FROM sys.asymmetric_keys WHERE thumbprint = %THUMBPRINT%)
+IF NOT EXISTS (SELECT * FROM sys.server_principals WHERE sid = @sid)
+BEGIN
+	CREATE LOGIN [%LOGIN%] FROM ASYMMETRIC KEY %KEY%   	
+	GRANT %PERMISSION% ASSEMBLY TO [%LOGIN%] 
+END</value>
+  </data>
+  <data name="sqlAddPermission" xml:space="preserve">
+    <value>GRANT %PERMISSION% ASSEMBLY TO [%LOGIN%]</value>
+  </data>
+  <data name="sqlDropKeyAndLogin" xml:space="preserve">
+    <value>IF  EXISTS (SELECT * FROM sys.server_principals WHERE name = '%LOGIN%') DROP LOGIN [%LOGIN%]
+IF EXISTS (SELECT * FROM sys.asymmetric_keys WHERE name = '%KEY%') DROP ASYMMETRIC KEY [%KEY%]</value>
+  </data>
+  <data name="sqlDropPermission" xml:space="preserve">
+    <value>REVOKE %PERMISSION% ASSEMBLY FROM [%LOGIN%]</value>
+  </data>
+  <data name="sqlGetAsymmetricKeys" xml:space="preserve">
+    <value>select * from master.sys.asymmetric_keys;</value>
+  </data>
+  <data name="sqlGetLogins" xml:space="preserve">
+    <value>SELECT pr.name, pr.sid, pr.principal_id, max(pe.type) as [level] 
+FROM sys.server_principals pr 
+LEFT JOIN sys.server_permissions pe 
+ON pr.principal_id = pe.grantee_principal_id AND pe.type in ('XA', 'XU') AND pe.state = 'G'
+WHERE pr.type='K'
+GROUP BY pr.name, pr.sid, pr.principal_id</value>
+  </data>
+</root>

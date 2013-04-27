@@ -1,0 +1,15 @@
+C:\Users\Charles\TortoiseHG\AssemblyManager\bin\Debug\Assembly Manager.exe.config
+C:\Users\Charles\TortoiseHG\AssemblyManager\obj\Debug\Assembly Manager.csprojResolveAssemblyReference.cache
+C:\Users\Charles\TortoiseHG\AssemblyManager\obj\Debug\AssemblyManager.AboutBox.resources
+C:\Users\Charles\TortoiseHG\AssemblyManager\obj\Debug\AssemblyManager.KeyName.resources
+C:\Users\Charles\TortoiseHG\AssemblyManager\obj\Debug\AssemblyManager.LicenseForm.resources
+C:\Users\Charles\TortoiseHG\AssemblyManager\obj\Debug\AssemblyManager.SQLBrowse.resources
+C:\Users\Charles\TortoiseHG\AssemblyManager\obj\Debug\AssemblyManager.Input.resources
+C:\Users\Charles\TortoiseHG\AssemblyManager\obj\Debug\AssemblyManager.ParameterBox.resources
+C:\Users\Charles\TortoiseHG\AssemblyManager\obj\Debug\AssemblyManager.MainAssemblyMgrForm.resources
+C:\Users\Charles\TortoiseHG\AssemblyManager\obj\Debug\AssemblyManager.Properties.Resources.resources
+C:\Users\Charles\TortoiseHG\AssemblyManager\obj\Debug\AssemblyManager.PropertyBox.resources
+C:\Users\Charles\TortoiseHG\AssemblyManager\obj\Debug\AssemblyManager.Resource.resources
+C:\Users\Charles\TortoiseHG\AssemblyManager\obj\Debug\AssemblyManager.SQLConnect.resources
+C:\Users\Charles\TortoiseHG\AssemblyManager\obj\Debug\Assembly Manager.csproj.GenerateResource.Cache
+C:\Users\Charles\TortoiseHG\AssemblyManager\obj\Debug\Assembly Manager.exe.licenses

@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C63029E6-4B74-4F39-92D8-966831DB30DA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AssemblyManager</RootNamespace>
+    <AssemblyName>Assembly Manager</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>AssemblyManager.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Infragistics2.Shared.v10.3, Version=10.3.20103.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics2.Win.Misc.v10.3, Version=10.3.20103.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v10.3, Version=10.3.20103.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.v10.3, Version=10.3.20103.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Smo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.SqlWmiManagement, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyName.Designer.cs">
+      <DependentUpon>KeyName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LicenseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LicenseForm.Designer.cs">
+      <DependentUpon>LicenseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQLBrowse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQLBrowse.Designer.cs">
+      <DependentUpon>SQLBrowse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Input.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Input.Designer.cs">
+      <DependentUpon>Input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterBox.Designer.cs">
+      <DependentUpon>ParameterBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyName.resx">
+      <DependentUpon>KeyName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LicenseForm.resx">
+      <DependentUpon>LicenseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="SQLBrowse.resx">
+      <DependentUpon>SQLBrowse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Input.resx">
+      <DependentUpon>Input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterBox.resx">
+      <DependentUpon>ParameterBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertyBox.resx">
+      <DependentUpon>PropertyBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQLConnect.resx">
+      <DependentUpon>SQLConnect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="EULA - AM.rtf" />
+    <None Include="Help\AssemblyMgr.chm" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PropertyBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PropertyBox.Designer.cs">
+      <DependentUpon>PropertyBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQLConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQLConnect.Designer.cs">
+      <DependentUpon>SQLConnect.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_55.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clipboard.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClrEnabled.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClrEnabled.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database Trigger.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Disconnect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DisconnectAll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drop.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExternalAssembly.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HideDatabase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImportAssembly.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RefreshAll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SafeAssembly.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Schema.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\script.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScriptToClipboard.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScriptToDisk.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScriptToSSMS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search button.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SQL.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSMS Database.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSMS External Assembly.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSMS Folder.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSMS Function.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSMS Schema.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSMS Server Connect.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSMS Server.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSMS Stored Proc %28external%29.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSMS Table.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSMS Table-valued function.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSMS UDT.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSMS Unsafe Assembly.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trustworthy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unchecked box.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnsafeAssembly.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DropChildObjects.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InstallAllChildren.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UndoSwapAssembly.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Create.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditServer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Execute.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Process.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Select.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WarningServer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DropAndCreate.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Parameters.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\View.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Table.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rule.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Statistics.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Insert.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RoleMember.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Properties.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Library.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Merge Library.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Export.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save All.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoubleDrop.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Two scripts.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\File.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rollback.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RollbackAll.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RollbackToHere.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExecuteToHere.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ViewAs.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ViewAsExecute.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ViewAsRollback.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\RollbackDownToHere.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StopHighlighted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DropFile.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trustworthy Database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alter.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checked box.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SafeAssembly2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScriptAsExecute.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScriptAsRollback.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trigger.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UndoDropAssemby.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloneTrigger.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DropAssembly.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImportFile.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClrDisabled.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HideDatabase.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoubleExecute.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CopyHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CutHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\AssemblyMgr.chm" />
+    <None Include="Resources\PasteHS.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Assembly Manager Blue 400 x 300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AssemblyManager.ico" />
+    <Content Include="bin\Debug\IsLicense50.dll" />
+    <Content Include="bin\Release\IsLicense50.dll" />
+    <None Include="Resources\DropKey.gif" />
+    <None Include="Resources\Key.gif" />
+    <None Include="Resources\Key.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
